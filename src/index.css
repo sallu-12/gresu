@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Custom Print Styles for High-Precision PDF Export */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #resume-a4-document, #resume-a4-document * {
+    visibility: visible;
+  }
+  #resume-a4-document {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+}

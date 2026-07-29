@@ -1,0 +1,6 @@
+{
+  "name": "RESUMIX - Resume Intelligence Platform",
+  "description": "Enterprise AI-powered Resume Intelligence Platform for job seekers, recruiters, universities, and enterprises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
